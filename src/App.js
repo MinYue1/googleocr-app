@@ -5,7 +5,7 @@ import { InlineMath, BlockMath } from 'react-katex';
 import './App.css';
 
 // 初始化 Gemini API
-const genAI = new GoogleGenerativeAI(process.env.REACT_APP_GEMINI_API_KEY,{apiEndpoint: "https://api.geminipool.aliyahzombie.top/v1"});
+const genAI = new GoogleGenerativeAI("7b7f25f1-a6fc-41b4-98fd-3bff988f5f46",{apiEndpoint: "https://api.geminipool.aliyahzombie.top/v1"});
 
 // 添加 generationConfig 配置
 const generationConfig = {
